@@ -122,7 +122,7 @@ printf "┈╩┈ ╩┈╩ ╩┈╩ ╝╚╝ ╩┈╩ ╚═╝ ┈ ┈╩�
 #------------------Installation------------------------#
 sleep 1
 echo -e "$R Checking Installation $nc"
-bash Install_SB.sh >> /dev/null
+bash install_SB.sh >> /dev/null
 echo -e "Checking Completed [$GR✓$nc] $nc "
 sleep 3
 clear
@@ -238,8 +238,7 @@ bash Social_All.sh
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
 sleep 1
-banner
-menu
+update
 fi
 }
 
