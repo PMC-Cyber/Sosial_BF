@@ -6,8 +6,8 @@ apt-get update
 apt-get install git
 git clone https://github.com/samsesh/Sosial_BF.git 
 cd Sosial_BF
-chmod +x Install-SB.sh
-./Install-SB.sh
+chmod +x install_SB.sh
+./install_SB.sh
 ```
 # Run
 ```
