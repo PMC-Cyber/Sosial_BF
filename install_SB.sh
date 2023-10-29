@@ -101,4 +101,4 @@ echo "┏┳┓ ┏━┓ ┏┓┏ ┏━┓ ┈ ┏━┓ ┏━┓ ┳┈┈ 
 echo "┈┃┃ ┃┈┃ ┃┃┃ ┣┫┈ ┈ ┗━┓ ┣┫┈ ┃┈┈ ┣┫┈ ┗━┓ ┣━┫ ┃ ┈  "
 echo "━┻┛ ┗━┛ ┛┗┛ ┗━┛ ┈ ┗━┛ ┗━┛ ┻━┛ ┗━┛ ┗━┛ ┻┈┻ ┻ ┈  "
 echo " "
-echo $WT"Silakan masukan command '${O}bash Sosial_All.sh' ${WT}Silakan "
+echo $WT"Silakan masukan command '${O}./Sosial_All.sh' ${WT}Silakan "
