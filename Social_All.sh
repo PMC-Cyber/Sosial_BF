@@ -122,7 +122,7 @@ printf "┈╩┈ ╩┈╩ ╩┈╩ ╝╚╝ ╩┈╩ ╚═╝ ┈ ┈╩�
 #------------------Installation------------------------#
 sleep 1
 echo -e "$R Checking Installation $nc"
-bash install-sb.sh >> /dev/null
+bash Install_SB.sh >> /dev/null
 echo -e "Checking Completed [$GR✓$nc] $nc "
 sleep 3
 clear
@@ -148,6 +148,7 @@ echo -e "           SOSIAL ALL BRUTE FORCE TEAM "
 
 menu() { 
 echo " "
+echo $WT"NOTE : ${O}SETIAP MEMILIH TOOLS WAJIB RESTART MASUK LAGI BIAR GAK NON DIRETORY "
 echo -e "$yellow Select From Menu : $nc"
 printf "\e[0m\n"
 printf "\e[0m\e[1;31m       [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m Brute Force Facebook Account\e[0m\n"
