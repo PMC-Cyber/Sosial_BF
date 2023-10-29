@@ -258,7 +258,7 @@ menu
 elif [[ $mainorexit1 == 2 || $about == 02 ]]; then
 printf "\e[0m\n"
 printf "\e[0m\n"
-exit 1
+msg_exit
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
 sleep 1
