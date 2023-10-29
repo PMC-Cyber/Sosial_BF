@@ -14,7 +14,7 @@ chmod +x install_SB.sh
 ./Social_All.sh
 ```
 # Screenshots :
-![Test Image 8]()
+![Test Image 8](https://i.ibb.co/jV0KBRH/Screenshot-2023-10-29-20-22-53-36.jpg)
 # Tested On :
 * Termux on andriod (tor connected if use vpn )
 ## Star History
@@ -33,5 +33,5 @@ chmod +x install_SB.sh
 * gmail            : Ha3MrX
 * instagram.       : thelinuxchoice
 * Twitter          : thelinuxchoice
-* Social BF        : 
+* Social BF        : ./B7
 * SocialBox All BF : ./B7
