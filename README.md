@@ -1,9 +1,18 @@
 # Social All BF
-SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , Coded By Belahsan Ouerghi Edit By samsesh
+SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , Coded By Belahsan Ouerghi Edit By ./B7
 # Installation
 ```
 apt-get update
 apt-get install git
+git clone https://github.com/Unlimited-Crack-You/Sosial_BF.git 
+cd Sosial_BF
+chmod +x install_SB.sh
+./install_SB.sh
+```
+# Installation Linux
+```
+sudo apt-get update
+sudo apt-get install git
 git clone https://github.com/Unlimited-Crack-You/Sosial_BF.git 
 cd Sosial_BF
 chmod +x install_SB.sh
