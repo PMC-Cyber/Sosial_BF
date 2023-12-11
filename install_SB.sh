@@ -10,6 +10,12 @@ CYAN="$(printf '\033[36m')"
 WT="$(printf '\033[37m')" 
 BLK="$(printf '\033[30m')"
 
+echo "WELCOME TO USER PMC SCRIPT TELAH UPDATE KE VERSI 2.0"
+echo "DI UPDATE INI SAYA MENAMBAHKAN SEDIKIT PERUBAHAN"
+echo "BUAT KE STABILAN ALHAMDULILLAH UDAH SAYA OPTIMALKAN"
+echo "TERIMA KASIH SALAM I'M B7"
+sleep 2
+
 #------------------Git Pull----------------#
 git pull >> /dev/null
 chmod 777 -R *
@@ -103,5 +109,4 @@ echo $GR"┏┳┓ ┏━┓ ┏┓┏ ┏━┓   ┏━┓ ┏━┓ ┳   ┏
 echo " ┃┃ ┃ ┃ ┃┃┃ ┣┫    ┗━┓ ┣┫  ┃   ┣┫  ┗━┓ ┣━┫ ┃  "
 echo $GR"━┻┛ ┗━┛ ┛┗┛ ┗━┛   ┗━┛ ┗━┛ ┻━┛ ┗━┛ ┗━┛ ┻ ┻ ┻  "
 echo " "
-chmod +x Social_All.sh
 echo $WT"Silakan masukan command ' ${O}./Social_All.sh ${O}' ${WT}Silakan "
