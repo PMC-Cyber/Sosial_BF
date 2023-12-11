@@ -22,24 +22,24 @@ apt-get update -qq >> /dev/null
 apt install python2 python tor perl figlet runit openssl -y >> /dev/null
 clear
 sleep 2
-echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
+echo $GR"┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃   ┃   ┃ ┃┃┃ ┃ ┳ "
 echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┻━┛ ┻━┛ ┻ ┛┗┛ ┗━┛  ╻ ╻ ╻"
 #----------------------gmail-------------------#
 echo "┏━┓ ┏┳┓ ┏━┓ ┳ ┳     ┏┓  ┏━┓  "
 echo "┃ ┳ ┃┃┃ ┣━┫ ┃ ┃     ┣┻┓ ┣┫   "
-echo "┗━┛ ┻ ┻ ┻ ┻ ┻ ┻━┛   ┗━┛ ┗   "
+echo $GR"┗━┛ ┻ ┻ ┻ ┻ ┻ ┻━┛   ┗━┛ ┗  ${O} "
 git clone https://github.com/Unlimited-Crack-You/Gmail_Hack.git >> /dev/null
 sleep 2
 
 #-------------------Facebook BF---------------#
 clear
-echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
+echo $GR"┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃   ┃   ┃ ┃┃┃ ┃ ┳ "
 echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┻━┛ ┻━┛ ┻ ┛┗┛ ┗━┛   ╻ ╻ ╻"
 echo "┏━┓ ┏━┓ ┏━┓ ┏━┓ ┏┓  ┏━┓ ┏━┓ ┳┏━   ┏┓  ┏━┓ "
 echo "┣┫  ┣━┫ ┃   ┣┫  ┣┻┓ ┃ ┃ ┃ ┃ ┣┻┓   ┣┻┓ ┣┫   "
-echo "┗   ┻ ┻ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┻ ┻   ┗━┛ ┗  "
+echo $GR"┗   ┻ ┻ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┻ ┻   ┗━┛ ┗  ${O}"
 #facebook
 if [ -d facebook ]; then
         echo "Directory facebook exists.[✔]"
@@ -53,12 +53,12 @@ sleep 2
 
 #-----------------Instagram 1---------------------#
 clear
-echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
+echo $GR"┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃   ┃   ┃ ┃┃┃ ┃ ┳ "
 echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┻━┛ ┻━┛ ┻ ┛┗┛ ┗━┛   ╻ ╻ ╻"
 echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┏━┓ ┳━┓ ┏━┓ ┏┳┓   ┏┓  ┏━┓  "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃ ┳ ┣┳┛ ┣━┫ ┃┃┃   ┣┻┓ ┣┫   "
-echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┗━┛ ┻┗━ ┻ ┻ ┻ ┻   ┗━┛ ┗    "
+echo $GR"┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┗━┛ ┻┗━ ┻ ┻ ┻ ┻   ┗━┛ ┗   ${O} "
 #Instagram 1
 #git clone https://github.com/umeshshinde19/instainsane.git
 cd instainsane
@@ -71,12 +71,12 @@ sleep 2
 
 #-----------------Twitter----------------#
 clear
-echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
+echo $GR"┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃   ┃   ┃ ┃┃┃ ┃ ┳ "
 echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┻━┛ ┻━┛ ┻ ┛┗┛ ┗━┛   ╻ ╻ ╻"
 echo "┏┳┓ ┳ ┳ ┳ ┏┳┓ ┏┳┓ ┏━┓ ┳━┓   ┏┓  ┏━┓  "
 echo " ┃  ┃┃┃ ┃  ┃   ┃  ┣┫  ┣┳┛   ┣┻┓ ┣┫  "
-echo " ┻  ┗┻┛ ┻  ┻   ┻  ┗━┛ ┻┗━   ┗━┛ ┗ "
+echo $GR" ┻  ┗┻┛ ┻  ┻   ┻  ┗━┛ ┻┗━   ┗━┛ ┗ ${O}"
 #Twitter
 #git clone https://github.com/imprithwishghosh/-tweetshell-.git
 cd tweetshell
@@ -88,20 +88,20 @@ cd ..
 
 #-----------------Instagram 2 ----------------#
 clear
-echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
+echo $GR"┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┳   ┳   ┳ ┏┓┏ ┏━┓ "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃   ┃   ┃ ┃┃┃ ┃ ┳ "
 echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┻━┛ ┻━┛ ┻ ┛┗┛ ┗━┛   ╻ ╻ ╻"
 echo "┳ ┏┓┏ ┏━┓ ┏┳┓ ┏━┓ ┏━┓ ┳━┓ ┏━┓ ┏┳┓   ┏┓  ┏━┓   ┳ ┳  "
 echo "┃ ┃┃┃ ┗━┓  ┃  ┣━┫ ┃ ┳ ┣┳┛ ┣━┫ ┃┃┃   ┣┻┓ ┣┫    ┃ ┃  "
-echo "┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┗━┛ ┻┗━ ┻ ┻ ┻ ┻   ┗━┛ ┗     ┻ ┻  "
+echo $GR"┻ ┛┗┛ ┗━┛  ┻  ┻ ┻ ┗━┛ ┻┗━ ┻ ┻ ┻ ┻   ┗━┛ ┗     ┻ ┻ ${O} "
 # instagram 2
 git clone https://github.com/Unlimited-Crack-You/Insta-Ibf
 cd Insta-Ibf
 bash ./andriod_setup.sh	>> /dev/null
 clear
-echo "┏┳┓ ┏━┓ ┏┓┏ ┏━┓   ┏━┓ ┏━┓ ┳   ┏━┓ ┏━┓ ┏━┓ ┳  "
+echo $GR"┏┳┓ ┏━┓ ┏┓┏ ┏━┓   ┏━┓ ┏━┓ ┳   ┏━┓ ┏━┓ ┏━┓ ┳  "
 echo " ┃┃ ┃ ┃ ┃┃┃ ┣┫    ┗━┓ ┣┫  ┃   ┣┫  ┗━┓ ┣━┫ ┃  "
-echo "━┻┛ ┗━┛ ┛┗┛ ┗━┛   ┗━┛ ┗━┛ ┻━┛ ┗━┛ ┗━┛ ┻ ┻ ┻  "
+echo $GR"━┻┛ ┗━┛ ┛┗┛ ┗━┛   ┗━┛ ┗━┛ ┻━┛ ┗━┛ ┗━┛ ┻ ┻ ┻  "
 echo " "
-chmod +x Sosial_All.sh
-echo $WT"Silakan masukan command '${O}./Sosial_All.sh' ${WT}Silakan "
+chmod +x Social_All.sh
+echo $WT"Silakan masukan command ' ${O}./Social_All.sh ${O}' ${WT}Silakan "
