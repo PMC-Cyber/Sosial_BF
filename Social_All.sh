@@ -2,7 +2,7 @@
 clear
 
 #-------------------Cek Version--------------------#
-__version__="1.0"
+__version__="2.0"
 
 #----------------ANSI colors (FG & BG)-------------#
 WT="\033[1;37m"
@@ -43,7 +43,7 @@ aboutbanner() {
   printf "\e[0m\n"
 		echo "${GREEN} Author   ${RED}:  ${ORANGE}./B7 ${RED}[ ${ORANGE}PMC MALWARE TEAM ${RED}]"
 		echo "${GREEN} Github   ${RED}:  ${CYAN}https://github.com/Unlimitid-Crak-You"
-		echo "${GREEN} Social   ${RED}:  ${CYAN}https://instagram.com/aprizal_febrian"
+		echo "${GREEN} Social   ${RED}:  ${CYAN}https://instagram.com/rizal_riyanzii"
 		echo "${GREEN} Version  ${RED}:  ${ORANGE}${__version__}"
 	
 printf "\e[0m\n"
@@ -61,7 +61,7 @@ echo -e "$GR"
   printf "\e[0m\n"
 		echo "${GR} Author   ${R}:  ${O}./B7 ${R}[ ${O}PMC MALWARE TEAM ${R}]"
 		echo "${GR} Github   ${R}:  ${CYAN}https://github.com/Unlimitid-Crak-You"
-		echo "${GR} Social   ${R}:  ${CYAN}https://instagram.com/aprizal_febrian"
+		echo "${GR} Social   ${R}:  ${CYAN}https://instagram.com/rizal_riyanzii"
 		echo "${GR} Version  ${R}:  ${O}${__version__}"
 	
 printf "\e[0m\n"
